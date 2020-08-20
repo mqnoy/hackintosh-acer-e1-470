@@ -35,7 +35,7 @@ Success installing hackintosh on acer e1-470 i3-3217U IHD 4000 7 series
 - Bluetooh
 
 ### Special thanks
-- www.olarila.com
+- olarila.com
 - elitemacx86.com
 - tonymacx86.com
 - osxlatitude.com

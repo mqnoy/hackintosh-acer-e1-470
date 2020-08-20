@@ -1,0 +1,76 @@
+23:804  0:938  Found UEFI Acpi 2.0 RSDP at %p
+23:804  0:000  Saving ACPI tables from RSDP %p to å’â„å‘â’ä†å‰ƒå¥“É“îƒ”í›¿$ ...
+23:804  0:000   %p: 'RSD PTR ACRSYSÔàÿÖ$', Rev: -1090784921 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+24:169  0:364    (Xsdt: %p, Rsdt: %p)
+24:169  0:000    %p: 'XSDT¤', 'XSDT', Rev: -1090785097, Len: 1 -> XSDT.aml
+24:177  0:008    %p: 'RSDTd', 'RSDT', Rev: -1090785097, Len: 1 -> RSDT.aml
+24:185  0:008    Tables in Xsdt: 16
+24:185  0:000    0. %p: 'FACP', 'FACP', Rev: -1090785097, Len: 5 -> FACP.aml
+24:194  0:008        (Dsdt: D6FEF000, Facs: D6F7C000, XDsdt: d6fef000, XFacs: 0)
+24:194  0:000        %p: 'DSDT7Ñ', 'DSDT', Rev: -1090785241, Len: 2 -> DSDT.aml
+24:240  0:046        %p: 'FACS@', Ver: -1090785077, Len: 2 -> FACS.aml
+24:248  0:008    1. %p: 'SSDTù', 'SSDT', Rev: -1090785097, Len: 1 -> SSDT-0-PtidDevc.aml
+24:257  0:008    2. %p: 'ASF!¥', 'ASF!', Rev: -1090785097, Len: 32 -> ASF!.aml
+24:265  0:008    3. %p: 'HPET8', 'HPET', Rev: -1090785097, Len: 1 -> HPET.aml
+24:276  0:010    4. %p: 'APIC˜', 'APIC', Rev: -1090785097, Len: 3 -> APIC.aml
+24:284  0:008    5. %p: 'MCFG<', 'MCFG', Rev: -1090785097, Len: 1 -> MCFG.aml
+24:292  0:008    6. %p: 'WPBTF', 'WPBT', Rev: -1090785097, Len: 1 -> WPBT.aml
+24:300  0:008    7. %p: 'FPDTd', 'FPDT', Rev: -1090785097, Len: 1 -> FPDT.aml
+24:308  0:008    8. %p: 'SSDTä', 'SSDT', Rev: -1090785097, Len: 1 -> SSDT-1-Cpu0Ist.aml
+24:317  0:008    9. %p: 'SSDT"', 'SSDT', Rev: -1090785097, Len: 1 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+24:365  0:048        * 3348340760: 'EAHS', '', Rev: 113, Len: -65286736  45 41 48 53 B0 CD 1B FC 71 0B FF D6 00 00 00 00 
+24:365  0:000        * 3605588632: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_0-ApIst.aml
+24:373  0:008        * 3605581848: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 E5 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x2_1-Cpu0Cst.aml
+24:386  0:012        * 3605581208: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+24:394  0:008  
+24:394  0:000    10. %p: 'UEFI>', 'UEFI', Rev: -1090785097, Len: 1 -> UEFI.aml
+24:403  0:008    11. %p: 'UEFIB', 'UEFI', Rev: -1090785097, Len: 1 -> UEFI.aml
+24:411  0:008    12. %p: 'POATU', 'POAT', Rev: -1090785097, Len: 3 -> POAT.aml
+24:421  0:009    13. %p: 'UEFIj', 'UEFI', Rev: -1090785097, Len: 1 -> UEFI.aml
+24:429  0:008    14. %p: 'BGRT8', 'BGRT', Rev: -1090785097, Len: 0 -> BGRT.aml
+24:438  0:008    15. %p: 'DBG2´', 'DBG2', Rev: -1090785097, Len: 0 -> DBG2.aml
+24:447  0:009    Tables in Rsdt: 16
+24:447  0:000    0. %p: 'FACPt', 'FACP', Rev: -1090785097, Len: 1 -> RSDT-FACP.aml
+24:456  0:009        (Dsdt: D6FEF000, Facs: D6F7C000)
+24:456  0:000        %p: 'DSDT7Ñ', 'DSDT', Rev: -1090785241, Len: 2
+24:457  0:001        %p: 'FACS@', Ver: -1090785077, Len: 2
+24:457  0:000    1. %p: 'SSDTù', 'SSDT', Rev: -1090785097, Len: 1
+24:457  0:000    2. %p: 'ASF!¥', 'ASF!', Rev: -1090785097, Len: 32
+24:457  0:000    3. %p: 'HPET8', 'HPET', Rev: -1090785097, Len: 1
+24:457  0:000    4. %p: 'APIC˜', 'APIC', Rev: -1090785097, Len: 3
+24:457  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1090785097, Len: 1
+24:457  0:000    6. %p: 'WPBTF', 'WPBT', Rev: -1090785097, Len: 1
+24:457  0:000    7. %p: 'FPDTd', 'FPDT', Rev: -1090785097, Len: 1
+24:457  0:000    8. %p: 'SSDTä', 'SSDT', Rev: -1090785097, Len: 1
+24:457  0:000    9. %p: 'SSDT"', 'SSDT', Rev: -1090785097, Len: 1
+24:457  0:000    10. %p: 'UEFI>', 'UEFI', Rev: -1090785097, Len: 1
+24:457  0:000    11. %p: 'UEFIB', 'UEFI', Rev: -1090785097, Len: 1
+24:457  0:000    12. %p: 'POATU', 'POAT', Rev: -1090785097, Len: 3
+24:457  0:000    13. %p: 'UEFIj', 'UEFI', Rev: -1090785097, Len: 1
+24:457  0:000    14. %p: 'BGRT8', 'BGRT', Rev: -1090785097, Len: 0
+24:457  0:000    15. %p: 'DBG2´', 'DBG2', Rev: -1090785097, Len: 0
+24:457  0:000  Found UEFI Acpi 1.0 RSDP at %p
+24:457  0:000  Printing ACPI tables from RSDP %p ...
+24:457  0:000   %p: 'RSD PTR ACRSYS', Rev: -1090784921 (Acpi 1.0), Len: 20
+24:457  0:000    (Rsdt: %p)
+24:457  0:000    %p: 'RSDTd', 'RSDT', Rev: -1090785097, Len: 1
+24:457  0:000    Tables in Rsdt: 16
+24:457  0:000    0. %p: 'FACPt', 'FACP', Rev: -1090785097, Len: 1
+24:457  0:000        (Dsdt: D6FEF000, Facs: D6F7C000)
+24:457  0:000        %p: 'DSDT7Ñ', 'DSDT', Rev: -1090785241, Len: 2
+24:459  0:001        %p: 'FACS@', Ver: -1090785077, Len: 2
+24:459  0:000    1. %p: 'SSDTù', 'SSDT', Rev: -1090785097, Len: 1
+24:459  0:000    2. %p: 'ASF!¥', 'ASF!', Rev: -1090785097, Len: 32
+24:459  0:000    3. %p: 'HPET8', 'HPET', Rev: -1090785097, Len: 1
+24:459  0:000    4. %p: 'APIC˜', 'APIC', Rev: -1090785097, Len: 3
+24:459  0:000    5. %p: 'MCFG<', 'MCFG', Rev: -1090785097, Len: 1
+24:459  0:000    6. %p: 'WPBTF', 'WPBT', Rev: -1090785097, Len: 1
+24:459  0:000    7. %p: 'FPDTd', 'FPDT', Rev: -1090785097, Len: 1
+24:459  0:000    8. %p: 'SSDTä', 'SSDT', Rev: -1090785097, Len: 1
+24:459  0:000    9. %p: 'SSDT"', 'SSDT', Rev: -1090785097, Len: 1
+24:459  0:000    10. %p: 'UEFI>', 'UEFI', Rev: -1090785097, Len: 1
+24:459  0:000    11. %p: 'UEFIB', 'UEFI', Rev: -1090785097, Len: 1
+24:459  0:000    12. %p: 'POATU', 'POAT', Rev: -1090785097, Len: 3
+24:459  0:000    13. %p: 'UEFIj', 'UEFI', Rev: -1090785097, Len: 1
+24:459  0:000    14. %p: 'BGRT8', 'BGRT', Rev: -1090785097, Len: 0
+24:459  0:000    15. %p: 'DBG2´', 'DBG2', Rev: -1090785097, Len: 0

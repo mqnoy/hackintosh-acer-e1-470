@@ -27,6 +27,7 @@ Success installing hackintosh on acer e1-470 i3-3217U IHD 4000 7 series
 - Sleep
 - WIFI (working but not full speed)
 - Audio (working with layout-id : 3)
+- iMessage
 
 ## Not Working
 - Card Reader

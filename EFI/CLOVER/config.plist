@@ -83,16 +83,6 @@
 				</dict>
 				<dict>
 					<key>Find</key>
-					<data>SERBUw==</data>
-					<key>Replace</key>
-					<data>SERFRg==</data>
-					<key>Disabled</key>
-					<false/>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-				</dict>
-				<dict>
-					<key>Find</key>
 					<data>WEhDSQ==</data>
 					<key>Replace</key>
 					<data>WEhDXw==</data>
@@ -170,7 +160,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -v slide=0 kext-dev-mode=1</string>
+		<string>dart=0 -v kext-dev-mode=1</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>XMPDetection</key>
@@ -211,14 +201,27 @@
 	<dict>
 		<key>InjectLAN</key>
 		<false/>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>layout-id</key>
+				<integer>3</integer>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>device-id</key>
+				<data>ZgEAAA==</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>AQBmAQ==</data>
+			</dict>
+		</dict>
 		<key>Audio</key>
 		<dict>
-			<key>ResetHDA</key>
-			<true/>
 			<key>AFGLowPowerState</key>
-			<true/>
-			<key>Inject</key>
-			<integer>3</integer>
+			<false/>
+			<key>ResetHDA</key>
+			<false/>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -236,8 +239,6 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>RadeonDeInit</key>
-		<false/>
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
@@ -252,14 +253,14 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
 		<key>LoadVBios</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x01660001</string>
+		<key>RadeonDeInit</key>
+		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>

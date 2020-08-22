@@ -14,12 +14,13 @@ Success installing hackintosh on acer e1-470 i3-3217U IHD 4000 7 series
 - GPU : IHD 4000
 - RAM : 8 GB
 - Touchpad :
-- Wireless Adapter : Atheros AR946X
-- Bluetooh : 
-- LAN Adapter : 
-- Audio : Realtek
+- Wireless Adapter : Atheros AR946X 
+- Bluetooh : Atheros AR3012
+- LAN Adapter : Realtek RTL8411
+- Audio : Realtek ALC282
 - DVD 
 - HDD : 500 GB SATA
+- Card Reader RTL8411 
 
 ## Working
 - QE/CI IHD 40000 1536 MB 1366x768
@@ -29,11 +30,11 @@ Success installing hackintosh on acer e1-470 i3-3217U IHD 4000 7 series
 - Audio (working with layout-id : 3)
 - iMessage
 - Battey indicator (with SMCBatteryManager.kext)
+- Internal Mic (work but noice)
 
 ## Not Working
-- Card Reader
-- Internal Mic 
-- Bluetooh
+- Card Reader (Not supported)
+- Bluetooh (detected with discoverable Off)
 
 ### Special thanks
 - olarila.com

@@ -1,0 +1,72 @@
+Screen 0: minimum 8 x 8, current 1366 x 768, maximum 32767 x 32767
+eDP1 connected primary 1366x768+0+0 (normal left inverted right x axis y axis) 310mm x 170mm
+	EDID: 
+		00ffffffffffff0006af3c3200000000
+		00170104951f117802afe59658538a26
+		24505400000001010101010101010101
+		010101010101ce1d56e250001e302616
+		360035ad100000180000000f00000000
+		00000000000000000020000000fe0041
+		554f0a202020202020202020000000fe
+		004231343058544e30332e32200a00f6
+	BACKLIGHT: 976 
+		range: (0, 976)
+	Backlight: 976 
+		range: (0, 976)
+	scaling mode: Full aspect 
+		supported: Full, Center, Full aspect
+	max bpc: 12 
+		range: (6, 12)
+	Broadcast RGB: Automatic 
+		supported: Automatic, Full, Limited 16:235
+	link-status: Good 
+		supported: Good, Bad
+	non-desktop: 0 
+		range: (0, 1)
+   1366x768      60.06*+
+   1280x720      59.86    60.00    59.74  
+   1024x768      60.00  
+   1024x576      60.00    59.90    59.82  
+   960x540       60.00    59.63    59.82  
+   800x600       60.32    56.25  
+   864x486       60.00    59.92    59.57  
+   640x480       59.94  
+   720x405       59.51    60.00    58.99  
+   680x384       60.00  
+   640x360       59.84    59.32    60.00  
+DP1 disconnected (normal left inverted right x axis y axis)
+	max bpc: 12 
+		range: (6, 12)
+	Broadcast RGB: Automatic 
+		supported: Automatic, Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+	link-status: Good 
+		supported: Good, Bad
+	non-desktop: 0 
+		range: (0, 1)
+HDMI1 disconnected (normal left inverted right x axis y axis)
+	max bpc: 12 
+		range: (8, 12)
+	content type: No Data 
+		supported: No Data, Graphics, Photo, Cinema, Game
+	Colorspace: Default 
+		supported: Default, SMPTE_170M_YCC, BT709_YCC, XVYCC_601, XVYCC_709, SYCC_601, opYCC_601, opRGB, BT2020_CYCC, BT2020_RGB, BT2020_YCC, DCI-P3_RGB_D65, DCI-P3_RGB_Theater
+	aspect ratio: Automatic 
+		supported: Automatic, 4:3, 16:9
+	Broadcast RGB: Automatic 
+		supported: Automatic, Full, Limited 16:235
+	audio: auto 
+		supported: force-dvi, off, auto, on
+	link-status: Good 
+		supported: Good, Bad
+	non-desktop: 0 
+		range: (0, 1)
+VGA1 disconnected (normal left inverted right x axis y axis)
+	link-status: Good 
+		supported: Good, Bad
+	non-desktop: 0 
+		range: (0, 1)
+VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+	non-desktop: 0 
+		supported: 0, 1

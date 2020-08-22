@@ -11,13 +11,13 @@
 				<key>APSN</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
-				<key>PStates</key>
 				<true/>
+				<key>PStates</key>
+				<false/>
 				<key>APLF</key>
 				<false/>
 				<key>CStates</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -111,7 +111,7 @@
 				<key>FixHPET</key>
 				<false/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 				<key>FixDarwin7</key>
 				<false/>
 				<key>FixShutdown</key>
@@ -119,15 +119,17 @@
 				<key>FixLAN</key>
 				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<false/>
+				<key>AddDTGP</key>
+				<true/>
 				<key>DeleteUnused</key>
 				<false/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixRegions</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
@@ -160,7 +162,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>Arguments</key>
-		<string>dart=0 -v kext-dev-mode=1</string>
+		<string>-xcpm kext-dev-mode=1 -v</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>XMPDetection</key>
@@ -210,6 +212,8 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL0(0,1,2... display number),override-no-connect</key>
+				<data></data>
 				<key>device-id</key>
 				<data>ZgEAAA==</data>
 				<key>AAPL,ig-platform-id</key>
@@ -246,7 +250,7 @@
 			<key>#ig-platform-id</key>
 			<string>0x01660003</string>
 			<key>Custom</key>
-			<data>AP///////wAGEBKgAAAAABwWAQS1MBt4Im+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBzh1W4lAAHjAmFjYANa0QAAAYAAAA/ABpTWFjCiAgICAgICAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTQwWFROMDMuMiAKAPw=</data>
+			<data>AP///////wAGrzwyAAAAAAAXAQSVHxF4Aq/lllhTiiYkUFQAAAABAQEBAQEBAQEBAQEBAQEBzh1W4lAAHjAmFjYANa0QAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTQwWFROMDMuMiAKAPY=</data>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -271,7 +275,7 @@
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelXCPM</key>
-		<false/>
+		<true/>
 		<key>Debug</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
@@ -341,6 +345,10 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>InjectSystemID</key>
+		<true/>
+		<key>CustomUUID</key>
+		<string>4477E87B-9028-5CC2-A8C1-7406D9EF2252</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>

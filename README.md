@@ -7,9 +7,8 @@ Success installing hackintosh on acer e1-470 i3-3217U IHD 4000 7 series
 - SMBIOS MacBookPro9,2
 
 ## Laptop Specification
-- Model Name: Aspire E1-470
-- Part Number: NX.MH3ST.001
-- Bios version : 
+- Model Name: Aspire E1-470 (EA40_CX)
+- Bios version : V2.01
 - Processor : Intel(R) Core(TM) i3-3217U CPU @ 1.80GHz
 - GPU : IHD 4000
 - RAM : 8 GB
@@ -27,10 +26,11 @@ Success installing hackintosh on acer e1-470 i3-3217U IHD 4000 7 series
 - HDMI Audio
 - Sleep
 - WIFI (working but not full speed)
-- Audio (working with layout-id : 3)
+- Audio (working with layout-id : 28)
 - iMessage
 - Battey indicator (with SMCBatteryManager.kext)
-- Internal Mic (work but noice)
+- Internal Mic 
+- Brightness Controll but not saved to NVRAM
 
 ## Not Working
 - Card Reader (Not supported)
